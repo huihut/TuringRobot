@@ -27,7 +27,6 @@ private string robotMessage = string.Empty;
 
 // 机器人返回链接列表
 private List<string> robotLinks = new List<string>();
-
 ```
 
 初始化图灵机器人：
