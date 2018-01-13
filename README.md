@@ -47,3 +47,21 @@ void Start()
 // 用户消息传入机器人，获取机器人回复信息、回复链接
 turingRobot.Chat(userMessage, ref robotMessage, ref robotLinks);
 ```
+
+使用回复信息、回复链接
+```
+// 判断返回消息有无链接
+if (robotLinks.Count == 0)  // 机器人回复的消息无链接
+{
+    // 把信息显示在测试的text中
+    Debug.Log("TuringRobot: " + robotMessage);
+}
+else  // 机器人回复的消息有链接
+{
+    // 把信息显示在测试的text中
+    Debug.Log("TuringRobot: " + robotMessage);
+    // 显示每个链接
+    foreach (string Link in robotLinks)
+        Debug.Log("\n" + Link);
+}
+```
