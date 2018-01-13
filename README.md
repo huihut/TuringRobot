@@ -50,7 +50,7 @@ void Start()
 turingRobot.Chat(userMessage, ref robotMessage, ref robotLinks);
 ```
 
-使用回复信息、回复链接
+使用回复信息、回复链接：
 ```
 // 判断返回消息有无链接
 if (robotLinks.Count == 0)  // 机器人回复的消息无链接
