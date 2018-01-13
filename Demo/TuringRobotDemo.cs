@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 class TuringRobotDemo : MonoBehaviour
 {
-	  #region
+	#region
     /*
     * 
     * Repository: https://github.com/huihut/TuringRobot
