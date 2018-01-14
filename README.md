@@ -5,7 +5,7 @@
 * 图灵机器人官网：http://www.tuling123.com/
 * 图灵机器人帮助文档：http://www.tuling123.com/help/h_cent_webapi.jhtml?nav=doc
 
-## Usage
+## 使用
 
 [TuringRobotDemo.cs](https://github.com/huihut/TuringRobot/blob/master/Demo/TuringRobotDemo.cs)
 
@@ -59,14 +59,14 @@ turingRobot.Chat(userMessage, ref robotMessage, ref robotLinks);
 // 判断返回消息有无链接
 if (robotLinks.Count == 0)  // 机器人回复的消息无链接
 {
-    // 把信息显示在测试的text中
+    // Debug输出机器人回复的消息
     Debug.Log("TuringRobot: " + robotMessage);
 }
 else  // 机器人回复的消息有链接
 {
-    // 把信息显示在测试的text中
+    // Debug输出机器人回复的消息
     Debug.Log("TuringRobot: " + robotMessage);
-    // 显示每个链接
+    // Debug输出机器人回复的每个链接
     foreach (string Link in robotLinks)
         Debug.Log("\n" + Link);
 }
