@@ -9,8 +9,12 @@
 
 [TuringRobotDemo.cs](https://github.com/huihut/TuringRobot/blob/master/Demo/TuringRobotDemo.cs)
 
-变量定义：
+声明命名空间：
+```
+using HuiHut.Turing;
+```
 
+定义变量：
 ```
 // 图灵机器人
 private TuringRobot turingRobot = new TuringRobot();
