@@ -7,7 +7,7 @@
 
 ## 使用
 
-[TuringRobotDemo.cs](https://github.com/huihut/TuringRobot/blob/master/Demo/TuringRobotDemo.cs)
+参考 [TuringRobotDemo.cs](https://github.com/huihut/TuringRobot/blob/master/Demo/TuringRobotDemo.cs) 使用 [TuringRobot](https://github.com/huihut/TuringRobot/blob/master/Scripts/TuringRobot.cs) 脚本，注意修改 `TuringRobotDemo.cs` 中的 `API_Key` 为你注册的图灵机器人 `API_Key` 。
 
 声明命名空间：
 ```
@@ -19,7 +19,7 @@ using HuiHut.Turing;
 // 图灵机器人
 private TuringRobot turingRobot = new TuringRobot();
 
-// 图灵机器人API Key
+// 图灵机器人API Key （此处改为你的 API_Key ）
 public string API_Key = @"2ee6e84a755b4ac2b5b2cc25d992b03a";
 
 // 随机生成用户ID，用于关联上下文语境
