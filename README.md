@@ -7,7 +7,7 @@
 
 ## 使用
 
-参考 [TuringRobotDemo.cs](https://github.com/huihut/TuringRobot/blob/master/Demo/TuringRobotDemo.cs) 使用 [TuringRobot](https://github.com/huihut/TuringRobot/blob/master/Scripts/TuringRobot.cs) 脚本，注意修改 `TuringRobotDemo.cs` 中的 `API_Key` 为你注册的图灵机器人 `API_Key` 。
+参考 [TuringRobotDemo.cs](https://github.com/huihut/TuringRobot/blob/master/Demo/TuringRobotDemo.cs) 使用 [TuringRobot.cs](https://github.com/huihut/TuringRobot/blob/master/Scripts/TuringRobot.cs) 脚本，注意修改 `TuringRobotDemo.cs` 中的 `API_Key` 为你注册的图灵机器人 `API_Key` 。
 
 声明命名空间：
 ```
